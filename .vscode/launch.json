@@ -1,0 +1,14 @@
+{
+	"configurations": [
+		{
+			"type": "java",
+			"name": "Debug HDSS (Launch)",
+			"request": "launch",
+			"cwd": "${workspaceFolder}",
+			"mainClass": "com.tinhvan.hdss.Application",
+			"stopOnEntry": false,
+			"console": "internalConsole",
+			"args": ""
+		}
+	]
+}

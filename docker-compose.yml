@@ -1,0 +1,15 @@
+version: '3'
+services:
+  hdss:
+    container_name: hdss
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: hdss:latest
+    ports:
+      - "8080:8080"
+    restart: always
+networks:
+  default:
+    external:
+      name: kong-net
